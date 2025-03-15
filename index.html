@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <link rel="stylesheet" href="style.css">
+		<title>Portfolio - ABC Consultants</title>	
+	</head>
+	<body>
+		<!-- Task 1: Styled Name -->
+		<div class="header-name">Adrian Monk</div>
+		
+		<!-- Task 2: Navigation Bar -->
+		<nav>
+			<a href="#about">About</a>
+			<a href="#skills">Skills</a>
+			<a href="#projects">Projects</a>
+			<a href="#recommendations">Recommendations</a>
+		</nav>
+		
+		<!-- Task 3: About Me -->
+		<section id="about">
+			<h2>About Me</h2>
+			<img src="html_finalprojimages/Software_Developer.png" alt="Profile Image"
+			width="70" height="40" >
+			<p>
+				Hi, I am a software developer with 2 years of experience in web technologies. I specialize in creating user-friendly solutions and am eager to contribute to innovative teams.
+			</p>
+		</section>
+		
+		<!-- Task 4: Skills -->
+		<section id="skills">
+			<h2>Skills</h2>
+			<div class="skills-list">
+				<div class="skill-item">
+					<img src="html_finalprojimages/HTML5_logo.png" alt="HTML Logo">
+					</a>
+					<span>HTML</span>
+				</div>
+				<div class="skill-item">
+					<img src="html_finalprojimages/CSS3_logo.png" alt="CSS Logo" alt="CSS Logo">
+					<span>CSS</span>
+				</div>
+				<div class="skill-item">
+					<img src="html_finalprojimages/JavaScript-Logo.png" alt="JS Logo">
+					<span>JavaScript</span>
+				</div>
+			</div>			
+		</section>
+		
+		<!-- Task 5: Projects -->
+		<section id="projects">
+			<h2>Projects</h2>
+			<div class="project">
+				<h3>Task Manager App</h3>
+				<p>A web app to organize tasks using HTML, CSS, and JavaScript, with local storage for persistence.</p>
+			</div>
+			<div class="project">
+				<h3>E-commerce Mockup</h3>
+				<p>A responsive product listing page built with CSS Flexbox and dynamic filtering in JavaScript.</p>
+			</div>
+			<div class="project">
+				<h3>Weather Dashboard</h3>
+				<p>An interactive dashboard fetching real-time weather data via API, styled with modern CSS.</p>
+			</div>
+		</section>
+		
+		<!-- Task 6 & 7: Recommendations -->
+		<section id="recommendations">
+			<h2>Recommendations</h2>
+			<div id="recommendation-list">
+				<div class="recommendation">
+					<p>"Adrian's dedication to clean code made our project a success." – Alice Smith, Project Manager</p>
+				</div>
+				<div class="recommendation">
+					<p>"His problem-solving skills are top-notch!" – Bob Johnson, Team Lead</p>
+				</div>
+				<div class="recommendation">
+					<p>"A reliable developer with a great attitude." – Clara Lee, Colleague</p>
+				</div>
+			</div>
+			<form id="recommendation-form">
+				<input type="text" id="rec-name" placeholder="Your Name" required>
+				<textarea id="rec-text" placeholder="Your Recommendation" required></textarea>
+				<button type="submit" >Submit</button> </br>
+			</form>
+		</section>
+		
+		<!-- Task 8: Home Icon -->
+		<a href="#about" class="home-icon">🏠</a>
+
+		<script src="script.js"></script>
+	</body>
+</html>
